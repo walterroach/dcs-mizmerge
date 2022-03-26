@@ -1,0 +1,2 @@
+-e git+https://github.com/pydcs/dcs@fac1bd084f22150acfde3bff220f8e69487048d1#egg=pydcs
+pyproj
