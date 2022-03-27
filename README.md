@@ -7,7 +7,16 @@ A command line utility for combining two DCS World missions together.
 
 
 # Installation and Usage
+## Installation
+pip install the pypi package
+
 `pip install dcs-mizmerge`
+
+Until the pypi wheel for pydcs is updated to 0.13.0, you may need to manually install it using this command
+
+`pip install -e git+https://github.com/pydcs/dcs@fac1bd084f22150acfde3bff220f8e69487048d1#egg=pydcs`
+
+## Usage
 
 `dcs-mizmerge "C:\PathToMissionWithClientFlightsHere.miz" "C:\PathToMissionYouWantToMergeClientFlightsIntoHere.miz"`
 
