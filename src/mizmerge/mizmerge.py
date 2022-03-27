@@ -10,7 +10,7 @@ from dcs.mission import Mission
 from dcs.coalition import Coalition
 from dcs.countries import country_dict
 
-import pydcs_extensions
+from mizmerge import pydcs_extensions
 
 
 def country_id_from_name(name: str) -> int:
@@ -171,9 +171,10 @@ class MizJoin:
         )
         return parser.parse_args()
 
-
-if __name__ == "__main__":
+def main():
     miz_join = MizJoin()
     miz_join.merge_client_flights()
 
-print("Done")
+if __name__ == "__main__":
+    main()
+

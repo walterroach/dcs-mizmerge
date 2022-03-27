@@ -4,8 +4,8 @@ from dcs import task
 from dcs.planes import PlaneType
 from dcs.weapons_data import Weapons
 
-from modsupport import planemod
-from pydcs_extensions.weapon_injector import inject_weapons
+from mizmerge.modsupport import planemod
+from mizmerge.pydcs_extensions.weapon_injector import inject_weapons
 
 
 class WeaponsA4EC:

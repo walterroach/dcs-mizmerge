@@ -1,1 +1,1 @@
-from.modsupport import *
+from .modsupport import *
